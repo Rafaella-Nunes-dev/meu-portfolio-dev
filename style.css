@@ -155,3 +155,101 @@ header::after{
     border-radius:20px;
 }
 
+.sobre section::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 0.1rem;
+    background-color: var(--violet);
+}
+
+@media (max-width:768px){
+
+    .sobre{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .sobre-foto img{
+        width:200px;
+    }
+
+}
+
+
+/* ITINERÁRIO FORMATIVO */
+
+.itinerario{
+    max-width:1000px;
+    margin:120px auto;
+    padding:40px;
+}
+
+.itinerario h2{
+    text-align:center;
+    color:var(--saffron);
+    font-size:2.2rem;
+    margin-bottom:60px;
+}
+
+/* LINHA CENTRAL */
+
+.timeline{
+    position:relative;
+    padding-left:30px;
+}
+
+.timeline::before{
+    content:"";
+    position:absolute;
+    left:10px;
+    top:0;
+    width:3px;
+    height:100%;
+    background:var(--violet);
+}
+
+/* ITEM */
+
+.timeline-item{
+    margin-bottom:40px;
+    position:relative;
+}
+
+/* BOLINHA */
+
+.timeline-item::before{
+    content:"";
+    position:absolute;
+    left:-2px;
+    top:5px;
+    width:14px;
+    height:14px;
+    background:var(--saffron);
+    border-radius:50%;
+}
+
+/* DATA */
+
+.timeline-data{
+    color:var(--green);
+    font-weight:700;
+    margin-bottom:8px;
+    margin-left: 18px;
+}
+
+/* CARD */
+
+.timeline-conteudo{
+    background:var(--dark_green);
+    padding:20px;
+    border-radius:12px;
+    color:white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.timeline-conteudo h3{
+    margin-bottom:8px;
+    color:var(--saffron);
+}
