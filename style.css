@@ -1,0 +1,92 @@
+:root {
+    --dark_purple: #130b1d;
+    --dark_green: #0e2410;
+    --green: #41644a;
+    --violet: #595082;
+    --saffron: #f8c662;
+}
+
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: var(--dark_purple);
+}
+
+/* HEADER */
+header{
+    background-color: var(--dark_green);
+    width:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+}
+
+header::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 0.1rem;
+    background-color: var(--green);
+}
+
+/* MENU */
+.menu{
+    max-width:1200px;
+    margin:auto;
+    padding:18px 30px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+/* LOGO */
+#logo{
+    width:55px;
+    cursor:pointer;
+}
+
+/* NAV */
+.navegacao{
+    display:flex;
+    list-style:none;
+    gap:50px;
+}
+
+/* LINKS */
+.item a{
+    text-decoration:none;
+    color:#f5deb3;
+    font-weight:600;
+    font-size:1.1rem;
+    position:relative;
+    transition:0.3s ease;
+}
+
+/* ANIMAÇÃO UNDERLINE */
+.item a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:0%;
+    height:2px;
+    background:wheat;
+    transition:0.3s ease;
+}
+
+.item a:hover{
+    color:green;
+}
+
+.item a:hover::after{
+    width:100%;
+}
