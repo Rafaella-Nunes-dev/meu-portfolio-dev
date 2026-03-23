@@ -4,33 +4,33 @@
         {
             "titulo" : "Pílula da Salvação",
             "descricao" : "Jogo 2d de plataforma desenvolvido em Unity para a Mostragem de Projetos Técnicos",
-            "link" : "",
-            "Git": "https://github.com/Rafaella-Nunes-dev/Lumma",
-            "img" : ""
+            "link" : "https://drive.google.com/drive/folders/1vpdjis3UkSRSS-vwfUj7aBg12tzmtAPd?usp=sharing",
+            "Git": "https://drive.google.com/drive/folders/1vpdjis3UkSRSS-vwfUj7aBg12tzmtAPd?usp=sharing",
+            "img" : "imgs/pilula-da-salvacao.png"
         },
 
         {
             "titulo" : "Papoula",
             "descricao" : "Jogo 2d rpg desenvolvido em Unity para a Mostragem de Projetos Técnicos",
-            "link" : "",
-            "Git": "",
-            "img" : ""
+            "link" : "https://drive.google.com/drive/folders/1nyfl7oHsZRqZr7CanTgdc9pxnhdOxlKS?usp=drive_link",
+            "Git": "https://drive.google.com/drive/folders/1nyfl7oHsZRqZr7CanTgdc9pxnhdOxlKS?usp=drive_link",
+            "img" : "imgs/papoula.png"
         },
 
         {
             "titulo" : "Bao de Prova",
             "descricao" : "Site para ajudar alunos a passar no vestibular, desenvolvido em grupo para projeto de extensão",
-            "link" : "",
-            "Git": "",
-            "img" : ""
+            "link" : "https://github.com/bao-de-prova/bao-de-prova.git",
+            "Git": "https://github.com/bao-de-prova/bao-de-prova.git",
+            "img" : "imgs/bao-de-prova.png"
         },
 
         {
             "titulo" : "Lumma",
             "descricao" : "Site desenvolvido em html e css para vender minhas velas",
-            "link" : "",
-            "Git": "",
-            "img" : ""
+            "link" : "https://rafaella-nunes-dev.github.io/Lumma/",
+            "Git": "https://github.com/Rafaella-Nunes-dev/Lumma",
+            "img" : "imgs/Lumma.png"
         }
     ]
 
