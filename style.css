@@ -401,5 +401,161 @@ header::after{
 .footer-social{
     align-items:center;
 }
+}
 
+/* CONTATO */
+
+.contato{
+    max-width:1200px;
+    margin:120px auto;
+    padding:40px;
+}
+
+.contato h2{
+    text-align:center;
+    font-size:2.3rem;
+    color:var(--saffron);
+    margin-bottom:50px;
+}
+
+/* CONTAINER */
+
+.contato-container{
+    display:flex;
+    gap:60px;
+    align-items:flex-start;
+}
+
+/* INFO */
+
+.contato-info{
+    flex:1;
+    color:white;
+}
+
+.contato-info h3{
+    color:var(--saffron);
+    margin-bottom:15px;
+}
+
+.contato-info p{
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.contato-lista{
+    list-style:none;
+}
+
+.contato-lista li{
+    margin-bottom:10px;
+}
+
+/* FORM */
+
+.contato-form{
+    flex:1;
+}
+
+.contato-form form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contato-form input,
+.contato-form textarea{
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    font-family:"Inter", sans-serif;
+}
+
+.contato-form textarea{
+    min-height:120px;
+    resize:none;
+}
+
+.contato-form button{
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:var(--violet);
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contato-form button:hover{
+    background:var(--green);
+}
+
+@media (max-width:768px){
+
+.contato-container{
+    flex-direction:column;
+    text-align:center;
+}
+
+}
+
+/* ATUAÇÃO PROFISSIONAL */
+
+.atuacao{
+    max-width:1000px;
+    margin:120px auto;
+    padding:40px;
+}
+
+.atuacao h2{
+    text-align:center;
+    font-size:2.3rem;
+    color:var(--saffron);
+    margin-bottom:50px;
+}
+
+/* LISTA */
+
+.experiencias{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+/* CARD EXPERIÊNCIA */
+
+.experiencia{
+    background:var(--dark_green);
+    padding:25px;
+    border-radius:14px;
+    color:white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.experiencia:hover{
+    transform:translateY(-5px);
+}
+
+.exp-periodo{
+    font-size:0.9rem;
+    color:var(--green);
+    font-weight:600;
+}
+
+.experiencia h3{
+    color:var(--saffron);
+    margin:8px 0 3px;
+}
+
+.experiencia h4{
+    font-weight:400;
+    margin-bottom:10px;
+    opacity:0.8;
+}
+
+.experiencia ul{
+    margin-top:10px;
+    padding-left:18px;
 }
