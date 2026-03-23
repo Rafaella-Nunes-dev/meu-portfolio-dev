@@ -10,12 +10,12 @@ fetch("trabalhos.json")
                 const card = document.createElement("div");
                 card.classList.add("card-projeto");
                 card.innerHTML = `
-                    <img src="${projetos.img}>" alt = "${projetos.titulo}">
+                    <img src="${projetos.img}" alt="${projetos.titulo}">
                     <h3>${projetos.titulo}</h3>
                     <p>${projetos.descricao}</p>
                     <div class="links">
                         <a href="${projetos.link}">Ver Projeto</a>
-                        <a href="${projetos.Git}">Gir Hub</a>
+                        <a href="${projetos.Git}">Git Hub</a>
                     </div>
                 `;
                 cards.appendChild(card);
